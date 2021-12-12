@@ -21,6 +21,11 @@
     font-size: 1.15rem;
     width: 35%;
 }
+@media screen and (max-width: 768px) {
+    .form {
+        width: 90% !important;
+    }
+}
 label {
     margin-top: 8px;
     padding: 14px 0;
